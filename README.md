@@ -1,4 +1,4 @@
-# Quote Hub
+# Quote Hub Developed in Laravel Framework
 
 **Welcome to Quote Hub – Your Ultimate Destination for Wholesale Coroplast Sheets and Banners!**  
 A Laravel-based web application built to streamline operations, reduce costs, and support businesses and signage professionals with affordable, high-quality coroplast sheets and banners.
@@ -39,25 +39,25 @@ Quote Hub is a platform designed for wholesalers and signage professionals to ea
 3. **Environment Setup**
    ```
    cp .env.example .env
-php artisan key:generate
-```
+   php artisan key:generate
+   ```
 4. **Database Configuration**
 
-Update .env with your DB credentials:
+   Update .env with your DB credentials:
 
-```
-DB_DATABASE=your_database
-DB_USERNAME=your_username
-DB_PASSWORD=your_password
-```
+   ```
+   DB_DATABASE=your_database
+   DB_USERNAME=your_username
+   DB_PASSWORD=your_password
+   ```
 5. **Run Migrations**
-```
-php artisan migrate
-```
+   ```
+   php artisan migrate
+   ```
 6. **Serve the Application**
-```
-php artisan serve
-```
+   ```
+   php artisan serve
+   ```
 
 
 
