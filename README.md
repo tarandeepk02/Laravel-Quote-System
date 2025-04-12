@@ -33,14 +33,14 @@ Quote Hub is a platform designed for wholesalers and signage professionals to ea
    cd Laravel-Quote-System
    ```
 2.   **Install Dependencies**
-   ```
-   composer install
-   ```
+      ```
+      composer install
+      ```
 3. **Environment Setup**
-   ```
-   cp .env.example .env
-   php artisan key:generate
-   ```
+      ```
+      cp .env.example .env
+      php artisan key:generate
+      ```
 4. **Database Configuration**
 
    Update .env with your DB credentials:
