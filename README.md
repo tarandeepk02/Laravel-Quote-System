@@ -1,13 +1,12 @@
-# Quote Hub Developed in Laravel Framework
+# Get a Quote System Developed in Laravel Framework
 
-**Welcome to Quote Hub – Your Ultimate Destination for Wholesale Coroplast Sheets and Banners!**  
-A Laravel-based web application built to streamline operations, reduce costs, and support businesses and signage professionals with affordable, high-quality coroplast sheets and banners.
+A Laravel-based web application built to streamline operations, reduce costs, and support businesses and signage professionals with affordable, high-quality products and cost estimations.
 
 ---
 
 ## 🧾 Project Overview
 
-Quote Hub is a platform designed for wholesalers and signage professionals to easily order coroplast sheets and banners. The application ensures:
+Quote Hub is a platform designed for wholesalers and signage professionals to easily order products. The application ensures:
 
 - 💲 Affordable prices without compromising on quality  
 - 🛒 Easy and secure online ordering  
@@ -20,8 +19,7 @@ Quote Hub is a platform designed for wholesalers and signage professionals to ea
 
 - **Framework:** Laravel (PHP)
 - **Database:** MySQL / MariaDB
-- **Frontend:** Blade Templating / Bootstrap / Tailwind (optional)
-- **Authentication:** Laravel Breeze / Jetstream / Fortify (based on your choice)
+- **Frontend:** Blade Templating / Bootstrap
 - **Hosting:** Compatible with shared hosting, VPS, or cloud (e.g., AWS, DigitalOcean)
 
 ---
