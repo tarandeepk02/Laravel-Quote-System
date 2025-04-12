@@ -1,0 +1,6 @@
+@include('admin.includes.head')
+@include('admin.includes.sidebar')
+@yield('styles')
+@yield('content')
+@include('admin.includes.footer')
+@yield('scripts')

@@ -1,0 +1,2045 @@
+/* 
+    Author: Shayimerdan Abdulla;
+    Theme: Jobnefit;
+    Version: 1.0;
+*/
+
+
+/* CSS for all */
+
+* {
+    margin: 0 0;
+    padding: 0 0;
+}
+
+.nav-container {
+    /* width: 80%; */
+    margin: 0 auto;
+    padding: 1%;
+}
+
+.my-container {
+    width: 70% ;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+
+.img-responsive {
+    width: 10%;
+}
+
+.img-curve {
+    border-radius: 15px;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-black {
+    color: black;
+}
+
+.text-gray {
+    color: #8c8c8c;
+}
+
+.text-light-gray {
+    color: #b5b5b5;
+}
+
+.text-red {
+    color: red;
+}
+
+.clearfix {
+    clear: both;
+    float: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: gray;
+}
+
+.success {
+    /* padding: 2%; */
+    color: green;
+}
+
+.error {
+    /* padding: 2%; */
+    color: red;
+}
+
+.disabled {
+    pointer-events: none;
+}
+
+#jobnefit-prime {
+    color: #10a3a3;
+}
+
+
+/* CSS for navbar section start */
+
+.logo {
+    width: 155px;
+    height: 35px;
+    margin-right: 50px;
+}
+
+nav {
+    height: 80px;
+    padding: 10px 40px 10px 70px;
+    border-left: none;
+    border-right: none;
+    font-size: 12px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul div.items {
+    padding: 0 25px;
+    display: inline-flex;
+}
+
+nav ul div.items a {
+    text-decoration: none;
+    font-size: 15px;
+    padding: 0 12px;
+    color: black;
+}
+
+nav ul div.items a:hover {
+    color: rgb(109, 109, 109);
+}
+
+nav ul .search {
+    height: 40px;
+    width: 440px;
+    display: flex;
+    color: #f2f2f2;
+    border-radius: 5px;
+}
+
+nav ul .search input[type="search"] {
+    height: 100%;
+    width: 21.5rem;
+    border: none;
+    outline: none;
+    margin-left: 5px;
+    padding: 0 10px;
+    color: #000;
+    font-size: 15px;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid #f2f2f2;
+}
+
+nav ul .search input[type="submit"] {
+    height: 100%;
+    width: 90px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    background-color: #323233;
+    font-size: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    float: right;
+}
+
+nav ul .search input[type="submit"]:hover {
+    color: rgb(228, 229, 230);
+}
+
+#login {
+    margin-left: 25px;
+}
+
+.dropBtn {
+    max-width: 140px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-user-profile {
+    height: 25px;
+    width: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin-top: 4px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 15px !important;
+    margin-top: 2px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: inline;
+}
+
+
+/* CSS for navbar section end */
+
+
+/* CSS for title section start */
+
+.title {
+    font-size: 19px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.search-not-found {
+    font-size: 19px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 18rem;
+}
+
+
+/* CSS for title section end */
+
+
+/* CSS for highlighted jobs section start */
+
+#highlightedString {
+    size: 20px;
+}
+
+#highlightedString i {
+    color: #000;
+}
+
+.scrollLeft {
+    margin-top: 30px;
+}
+
+.highlighted ul {
+    overflow-x: scroll;
+    white-space: nowrap;
+    width: 100%;
+    padding-left: 0;
+}
+
+.highlighted ul li {
+    padding: 0 10px;
+    display: inline-block;
+}
+
+.highlighted ul li a {
+    text-decoration: none;
+}
+
+.highlightedCardImage {
+    height: 65%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 3px;
+}
+
+.payment-tag {
+    float: left;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 1000;
+    background-color: #92AD40;
+    padding: 5px;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.highlightedCard {
+    width: 10rem;
+    height: 15rem;
+}
+
+.highlightedCard-title {
+    text-align: center;
+    font-size: 15px;
+    color: #000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.highlightedCard-body {
+    display: inline-block;
+    width: 100%;
+    height: 80px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.highlightedCard-body span {
+    font-size: 14px;
+}
+
+#highlightedCardBody {
+    padding: 5px;
+    line-height: 5px;
+    font-size: 12px;
+    color: #000;
+    margin-top: 0;
+}
+
+
+/* .scrollBtns{
+    display: inline-block;
+    width: 100%;
+}
+
+#scrollRight{
+    float: right;
+}
+
+#scrollLeft{
+    float: left;
+}
+
+#scrollRightBtn{
+    color: #000;
+    text-decoration: none;
+}
+
+#scrollLeftBtn{
+    color: #000;
+    text-decoration: none;
+} */
+
+
+/* CSS for highlighted jobs section end */
+
+
+/* CSS for sorting buttons section start */
+
+.sortingBtns ul {
+    text-align: center;
+    list-style: none;
+    width: 100%;
+}
+
+.sortingBtns ul li {
+    display: inline-block;
+    padding: 1%;
+}
+
+.sortingBtns ul li a {
+    font-size: small;
+    width: 5rem;
+    height: 5rem;
+}
+
+.sortingBtns ul li a:hover {
+    background-color: rgb(228, 229, 230);
+}
+
+
+/* CSS for sorting buttons section end */
+
+
+/* CSS for job cards section start */
+
+.jobCards ul {
+    width: 100%;
+    color: white;
+}
+
+.jobCards ul li {
+    padding: 0 12px;
+    display: inline-block;
+}
+
+.jobCards ul li a {
+    text-decoration: none;
+}
+
+.jobCard-title {
+    text-align: center;
+    font-size: 15px;
+    color: #000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.jobCardImage {
+    height: 65%;
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
+.blur {
+    padding: 1%;
+    filter: blur(4px);
+}
+
+.jobCard {
+    border: 1px solid rgb(180, 180, 180);
+    width: 13rem;
+    height: 18rem;
+    font-size: 12px;
+    color: #000;
+    margin-top: 0;
+    border-radius: 5%;
+    display: none;
+    position: relative;
+}
+
+.jobCard-body {
+    display: inline-block;
+    width: 100%;
+    height: 35%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+}
+
+.jobCard-body span {
+    font-size: 13px;
+}
+
+#showMore {
+    background-color: #323233;
+}
+
+#showMore:hover {
+    background-color: #000;
+}
+
+
+/* CSS for job cards section end */
+
+
+/* CSS for job-search.php start */
+
+.sorted-jobCard {
+    border: 1px solid rgb(180, 180, 180);
+    width: 16rem;
+    height: 20rem;
+    font-size: 12px;
+    color: #000;
+    margin-top: 0;
+    border-radius: 5%;
+}
+
+
+/* CSS for job-search.php end */
+
+
+/* CSS for user.php start */
+
+.userDetails {
+    width: 26rem;
+    height: 37rem;
+    border: 1px solid silver;
+    border-radius: 10px;
+    padding: 1%;
+    float: left;
+}
+
+#userProfile {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.userMoreDetails {
+    width: 100%;
+    height: 15rem;
+    margin-top: 2rem;
+    border: 1px solid silver;
+    border-radius: 10px;
+    padding: 1%;
+    background-color: rgb(248, 248, 248);
+    overflow: auto;
+}
+
+.userMoreDetails2 {
+    position: relative;
+    float: right;
+    width: 40rem;
+    height: 37rem;
+    border: 1px solid silver;
+    border-radius: 10px;
+    padding: 1%;
+    overflow-y: auto;
+}
+
+.user_uploaded_jobs ul {
+    list-style-type: none;
+}
+
+.user_uploaded_jobs ul li {
+    float: left;
+    display: inline;
+    padding-left: 35px;
+    padding-top: 10px;
+}
+
+.no-uploaded-jobs {
+    font-size: 19px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 18rem;
+}
+
+.no-applied-jobs {
+    font-size: 19px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 18rem;
+}
+
+
+/* CSS for user.php start */
+
+
+/* CSS for footer section start */
+
+.container2 {
+    width: 100%;
+    height: 20%;
+    margin: 0 auto;
+    padding: 1%;
+    background-color: #0e141b;
+    vertical-align: middle;
+}
+
+.appStores {
+    float: left;
+    margin-top: 1rem;
+    margin: 1%;
+}
+
+#appStore img {
+    height: 10rem;
+}
+
+#playStore img {
+    height: 10rem;
+}
+
+.footerContent {
+    margin-top: 2rem;
+}
+
+.footerContent a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footerContent a:hover {
+    text-decoration: none;
+    color: rgb(109, 109, 109);
+}
+
+.footerContent1 {
+    float: left;
+    margin: 1%;
+    margin-left: 10%;
+}
+
+.footerContent2 {
+    float: left;
+    margin: 1%;
+    margin-left: 10%;
+}
+
+.footerContent3 {
+    float: left;
+    margin: 1%;
+    margin-left: 10%;
+}
+
+.footerContent4 {
+    float: left;
+    margin: 1%;
+    margin-left: 10%;
+}
+
+#team-link {
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#team-link:hover {
+    text-decoration: underline;
+}
+
+
+/* CSS for footer section end */
+
+
+/* CSS for social section start */
+
+.social {
+    margin-top: 30px;
+}
+
+.social ul {
+    list-style-type: none;
+}
+
+.social ul li {
+    display: inline;
+    padding: 1%;
+}
+
+
+/* CSS for social section end */
+
+
+/* CSS for job.php start */
+
+.jobImageDiv {
+    width: 40rem;
+    height: 30rem;
+    float: left;
+    object-fit: cover;
+    position: relative;
+}
+
+#jobImage {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.jobDetailsDiv {
+    width: 25rem;
+    height: 30rem;
+    float: right;
+    padding: 1%;
+    position: relative;
+}
+
+.jobDetailsTitle {
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#jobDetailsCreatedDate {
+    color: black;
+    font-weight: bold;
+}
+
+#jobDetailsModifiedDate {
+    color: #000;
+}
+
+#jobDetailsDuration {
+    color: black;
+    font-weight: bold;
+}
+
+#jobDetailsOffer {
+    color: black;
+    font-weight: bold;
+}
+
+#jobDetailsTargetDate {
+    color: black;
+    font-weight: bold;
+}
+
+#jobDetailsLocation {
+    color: black;
+    font-weight: bold;
+}
+
+#jobDetailsDescription {
+    color: black;
+    font-weight: bold;
+}
+
+.jobDetailsDescription {
+    word-wrap: break-word;
+}
+
+.jobDetailsBody {
+    width: 100%;
+    font-size: 14.5px;
+}
+
+.jobDetailsBody span {
+    color: black;
+    font-weight: bold;
+}
+
+.applyBtnDiv {
+    width: 100%;
+    margin-top: 5rem;
+    position: absolute;
+    bottom: 0;
+}
+
+#apply {
+    display: block;
+    width: 100%;
+    height: 2.5rem;
+    font-size: 14.5px;
+    text-align: center;
+    background-color: #323233;
+    margin-bottom: 3px;
+}
+
+#applied {
+    display: block;
+    width: 100%;
+    height: 2.5rem;
+    font-size: 14.5px;
+    text-align: center;
+    background-color: rgb(109, 109, 109);
+    margin-bottom: 3px;
+}
+
+#send_feedback {
+    display: block;
+    width: 100%;
+    height: 2.5rem;
+    font-size: 14.5px;
+    text-align: center;
+    background-color: #323233;
+    margin-bottom: 3px;
+}
+
+#facebook {
+    display: block;
+    width: 100%;
+    height: 2.5rem;
+    font-size: 14.5px;
+    text-align: center;
+    background-color: #3b5998;
+    margin-bottom: 3px;
+}
+
+#facebook:hover {
+    background-color: #344e85;
+}
+
+#save {
+    width: 10rem;
+    height: 2.5rem;
+    font-size: 14.5px;
+    text-align: center;
+    background-color: #323233;
+}
+
+#save:hover {
+    background-color: #000;
+}
+
+#saved {
+    width: 10rem;
+    height: 3rem;
+    font-size: 20px;
+    border-color: silver;
+    /* margin-left: 4rem; */
+}
+
+#saved:hover {
+    background-color: #10babb;
+    color: white;
+}
+
+#edit {
+    display: block;
+    width: 100%;
+    height: 2.5rem;
+    font-size: 14.5px;
+    text-align: center;
+    background-color: #323233;
+    margin-bottom: 3px;
+}
+
+#edit:hover {
+    background-color: #000;
+}
+
+#close {
+    display: block;
+    width: 100%;
+    height: 2.5rem;
+    font-size: 14.5px;
+    text-align: center;
+    background-color: rgb(209, 26, 42);
+}
+
+#close:hover {
+    background-color: rgb(153, 19, 31);
+}
+
+#closed {
+    width: 22rem;
+    height: 3rem;
+    font-size: 20px;
+    background-color: silver;
+}
+
+.appliers {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.appliersDetails {
+    width: 100%;
+    height: auto;
+    border: 1px solid;
+    border-color: silver;
+    border-radius: 5px;
+    padding: 1%;
+    margin-bottom: 10px;
+    float: left;
+    background-color: #f5f5f5;
+}
+
+.applicants {
+    display: none;
+}
+
+.applicants a {
+    color: black;
+}
+
+.applicants a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.applier_email {
+    color: #fff;
+    background-color: #323233;
+}
+
+#contact_applier {
+    height: 2.5rem;
+    font-size: 14.5px;
+    color: #fff;
+    background-color: #323233;
+}
+
+#contact_applier:hover {
+    background-color: #000;
+}
+
+#accept {
+    width: 10rem;
+    height: 2.5rem;
+    font-size: 14.5px;
+    float: right;
+    border: 1px solid;
+    color: #fff;
+    background-color: #323233;
+}
+
+#accept:hover {
+    background-color: #000;
+}
+
+fb-share-button {
+    float: right;
+}
+
+.fa-facebook {
+    font-size: 18px;
+}
+
+
+/* CSS for job.php end */
+
+
+/* CSS for sign-in.php starts */
+
+.sign-in {
+    margin: 0 auto;
+    width: 500px;
+    height: 600px;
+    border: 1px solid silver;
+    border-radius: 10px;
+    padding: 1%;
+}
+
+.sign-in h1 {
+    padding: 0 0 20px 0;
+}
+
+.sign-in form {
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+form .txt_field {
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;
+}
+
+.txt_field input {
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.txt_field label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #adadad;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.txt_field span::before {
+    content: "";
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: #000;
+    transition: 0.5s;
+}
+
+.txt_field input:focus~label,
+.txt_field input:valid~label {
+    top: 0;
+    color: #000;
+}
+
+.txt_field input:focus~span::before,
+.txt_field input:valid~span::before {
+    width: 100%;
+}
+
+.forgotPassword {
+    margin: -5px 0 20px 5px;
+    color: #a6a6a6;
+    cursor: pointer;
+}
+
+.forgotPassword:hover {
+    text-decoration: underline;
+}
+
+input[type="submit"] {
+    width: 100%;
+    height: 50px;
+    border: 1px solid;
+    background: #323233;
+    border-radius: 25px;
+    font-size: 18px;
+    color: #e9f4fb;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="button"] {
+    width: 100%;
+    height: 40px;
+    border: 1px solid;
+    background: #000;
+    border-radius: 25px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]:hover {
+    border-color: #10babb;
+    transition: 0.5s;
+}
+
+.signup_link {
+    margin: 30px 0;
+    text-align: center;
+    font-size: 16px;
+    color: #666666;
+}
+
+.signup_link a {
+    color: #10babb;
+    text-decoration: none;
+}
+
+.signup_link a:hover {
+    text-decoration: underline;
+}
+
+.withOther i {
+    position: absolute;
+    left: 15px;
+    top: 12px;
+    color: white;
+}
+
+.withGoogle {
+    position: relative;
+}
+
+.withFacebook {
+    position: relative;
+    top: 5px;
+}
+
+.withApple {
+    position: relative;
+    top: 10px;
+}
+
+
+/* CSS for sign-in.php end */
+
+
+/* CSS for sign-up.php starts */
+
+.sign-up {
+    margin: 0 auto;
+    width: 500px;
+    height: 980px;
+    border: 1px solid silver;
+    border-radius: 10px;
+    padding: 1%;
+}
+
+.sign-up h1 {
+    padding: 0 0 20px 0;
+}
+
+.sign-up form {
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+.signin_link {
+    margin: 30px 0;
+    text-align: center;
+    font-size: 16px;
+    color: #666666;
+}
+
+.signin_link a {
+    color: #10babb;
+    text-decoration: none;
+}
+
+.signin_link a:hover {
+    text-decoration: underline;
+}
+
+
+/* CSS for sign-in.php end */
+
+
+/* CSS for post-job.php start */
+
+.post-job {
+    margin: 0 auto;
+    width: 50%;
+    height: 1100px;
+    border: 1px solid silver;
+    border-radius: 10px;
+    padding: 3%;
+}
+
+.post-job textarea {
+    width: 100%;
+}
+
+form .txt_field2 {
+    width: 50%;
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;
+}
+
+.txt_field2 input {
+    padding: 0 5px;
+    width: 90%;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.txt_field2 label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #adadad;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.txt_field2 span::before {
+    content: "";
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: #10a3a3;
+    transition: 0.5s;
+}
+
+.txt_field2 input:focus~label,
+.txt_field2 input:valid~label {
+    top: 0;
+    color: #10a3a3;
+}
+
+.txt_field2 input:focus~span::before,
+.txt_field2 input:valid~span::before {
+    width: 100%;
+}
+
+.postBtnDiv {
+    margin-top: 5rem;
+}
+
+.postBtnDiv input {
+    width: 100%;
+    height: 3rem;
+    font-size: 20px;
+    background-color: #10babb;
+    border-color: #10a3a3;
+}
+
+#create {
+    color: #fff;
+    background-color: #323233;
+}
+
+#create:hover {
+    background-color: #000;
+}
+
+.upload__img-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+
+.upload__img-box {
+    width: 125px;
+    padding: 0 10px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.upload__img-close {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    text-align: center;
+    line-height: 24px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.upload__img-close:after {
+    content: '\2716';
+    font-size: 14px;
+    color: white;
+}
+
+.img-bg {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding-bottom: 100%;
+    border-radius: 5px;
+}
+
+#upload-error {
+    display: none;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+}
+
+
+/* CSS for post-job.php end */
+
+
+/* CSS for apply-job.php start */
+
+.jobDetailsForApply {
+    width: 26rem;
+    height: 40rem;
+    border: 1px solid silver;
+    border-radius: 10px;
+    padding: 1%;
+    float: left;
+}
+
+.jobDetailsTitleForApply {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+#jobImageForApply {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.uploader-profile {
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+#jobUploaderForApply {
+    font-size: 20px;
+}
+
+.jobDetailsBodyForApply {
+    width: 100%;
+    height: 15rem;
+    border: 1px solid silver;
+    border-radius: 10px;
+    padding: 1%;
+    background-color: rgb(248, 248, 248);
+    overflow: auto;
+}
+
+#jobDetailsDescriptionForApply {
+    word-wrap: break-word;
+}
+
+.jobDetailsBodyForApply i {
+    color: #10babb;
+}
+
+.appliersDetails {
+    display: none;
+}
+
+.applierName {
+    color: #000;
+    text-decoration: none;
+}
+
+.applierName:hover {
+    text-decoration: none;
+    color: #000
+}
+
+.applyForJobDiv {
+    margin-top: 5px;
+}
+
+.applierDetails {
+    height: auto;
+    border: 1px solid;
+    border-color: silver;
+    border-radius: 5px;
+    padding: 1%;
+    float: left;
+    margin-left: 80px;
+}
+
+
+/* CSS for apply-job.php end */
+
+
+/* CSS for edit-job.php start */
+
+#editBtn {
+    color: #fff;
+    background-color: #323233;
+}
+
+#editBtn:hover {
+    background-color: #000;
+}
+
+#changePasswordBtn {
+    color: #fff;
+    background-color: #323233;
+    margin-top: 15px;
+}
+
+#changePasswordBtn:hover {
+    background-color: #000;
+}
+
+
+/* .edit-job {
+    margin: 0 auto;
+    width: 50%;
+    height: 1050px;
+    border: 1px solid silver;
+    border-radius: 10px;
+    padding: 3%;
+}
+
+.edit-job textarea {
+    width: 100%;
+}
+
+.editBtnDiv {
+    margin-top: 5rem;
+}
+
+.editBtnDiv input {
+    width: 100%;
+    height: 3rem;
+    font-size: 20px;
+    background-color: #10babb;
+    border-color: #10a3a3;
+}
+
+.edit-image-preview {
+    width: 150px;
+    height: 115px;
+    border-radius: 5px;
+} */
+
+
+/* CSS for edit-job.php end */
+
+
+/* CSS for profile.php start */
+
+.profileContent {
+    width: 100%;
+    height: 30rem;
+    border: 1px solid silver;
+    border-radius: 10px;
+    padding: 1%;
+}
+
+.appliedJobs {
+    float: left;
+}
+
+.postedJobs {
+    padding-left: 5rem;
+    float: left;
+}
+
+.savedJobs {
+    padding-left: 5rem;
+    float: left;
+}
+
+.myAccount {
+    padding-left: 5rem;
+    float: left;
+}
+
+
+/* CSS for profile.php end */
+
+
+/* CSS for my-applied-jobs.php end */
+
+.applied-jobCard {
+    border: 1px solid rgb(180, 180, 180);
+    width: 16rem;
+    height: 20rem;
+    font-size: 12px;
+    color: #000;
+    margin-top: 0;
+    border-radius: 5%;
+    display: none;
+}
+
+
+/* CSS for my-applied-jobs end */
+
+
+/* CSS for my-posted-jobs.php end */
+
+.posted-jobCard {
+    border: 1px solid rgb(180, 180, 180);
+    width: 16rem;
+    height: 20rem;
+    font-size: 12px;
+    color: #000;
+    margin-top: 0;
+    border-radius: 5%;
+    display: none;
+}
+
+
+/* CSS for my-posted-jobs end */
+
+
+/* CSS for my-saved-jobs.php end */
+
+.saved-jobCard {
+    border: 1px solid rgb(180, 180, 180);
+    width: 16rem;
+    height: 20rem;
+    font-size: 12px;
+    color: #000;
+    margin-top: 0;
+    border-radius: 5%;
+    display: none;
+}
+
+
+/* CSS for my-saved-jobs end */
+
+
+/* CSS for profile.php start */
+
+.profileContent {
+    width: 100%;
+    height: auto;
+    padding: 1%;
+    text-align: center;
+    border: none;
+}
+
+.profileContent div {
+    width: 29rem;
+    height: 15rem;
+    margin-left: 20px;
+    display: inline-block;
+    margin: 10px;
+    padding: 3%;
+    font-size: 18px;
+    text-align: left;
+    border: 1px solid silver;
+    border-radius: 5px;
+    background-color: white;
+    color: #10babb;
+    position: relative;
+}
+
+.profileContent div:hover {
+    background-color: #10a3a3;
+    color: white;
+}
+
+.clickToEdit {
+    visibility: hidden;
+    font-size: 15px;
+    float: right;
+    position: absolute;
+    bottom: 0;
+    right: 5px;
+}
+
+.profileContent div:hover .clickToEdit {
+    visibility: visible;
+}
+
+.profileContent ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.profileContent a {
+    text-decoration: none;
+    color: white;
+}
+
+.profileContent a:hover {
+    color: rgb(219, 219, 219);
+}
+
+.no-jobs {
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+
+/* CSS for profile.php end */
+
+
+/* CSS for edit-profile.php start */
+
+.edit-profile {
+    margin: 0 auto;
+    width: 500px;
+    height: 750px;
+    border: 1px solid silver;
+    border-radius: 10px;
+    padding: 1%;
+}
+
+.edit-profile h1 {
+    padding: 0 0 20px 0;
+}
+
+.edit-profile form {
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+
+/* CSS for edit-profile.php end */
+
+
+/* CSS for Why.php start */
+
+.whyContent {
+    margin-top: 2rem;
+    height: 100rem;
+}
+
+.content1 {
+    width: 100%;
+    height: 6rem;
+}
+
+.content1 h3 {
+    margin-bottom: 2rem;
+}
+
+.para {
+    width: 30rem;
+    height: 4rem;
+    margin-top: 2rem;
+    font-size: 20px;
+    float: left;
+}
+
+.pic {
+    float: right;
+}
+
+.pic img {
+    width: 30rem;
+    height: 20rem;
+    margin-top: 1rem;
+    border-radius: 5%;
+}
+
+.content2 {
+    margin-top: 30rem;
+    width: 100%;
+    height: 6rem;
+}
+
+.para2 {
+    width: 30rem;
+    height: 4rem;
+    margin-top: 1rem;
+    font-size: 20px;
+    float: right;
+}
+
+.pic2 {
+    float: left;
+}
+
+.pic2 img {
+    width: 30rem;
+    height: 20rem;
+    border-radius: 5%;
+}
+
+.content3 {
+    margin-top: 30rem;
+    width: 100%;
+    height: 6rem;
+}
+
+.para3 {
+    width: 30rem;
+    height: 4rem;
+    margin-top: 2rem;
+    font-size: 20px;
+    float: left;
+}
+
+.pic3 {
+    float: right;
+}
+
+.pic3 img {
+    width: 30rem;
+    height: 20rem;
+    border-radius: 5%;
+}
+
+
+/* CSS for Why.php end */
+
+
+/* CSS for about.php start */
+
+.aboutContent {
+    margin-top: 2rem;
+    height: 30rem;
+}
+
+.aboutContent1 {
+    width: 88%;
+    height: 6rem;
+}
+
+.aboutPara {
+    width: 30rem;
+    height: 4rem;
+    margin-top: 2rem;
+    font-size: 18px;
+    float: right;
+}
+
+.aboutPic {
+    float: left;
+}
+
+.aboutPic img {
+    width: 26rem;
+    height: 22rem;
+    margin-top: 1rem;
+    border-radius: 5%;
+}
+
+
+/* CSS for about.php end */
+
+
+/* CSS for contact.php start */
+
+.contact {
+    margin: 0 auto;
+    width: 80%;
+    height: 880px;
+    border: 1px solid silver;
+    border-radius: 10px;
+    padding: 3%;
+}
+
+.contact h3 {
+    text-align: center;
+    color: #10babb;
+}
+
+
+/* CSS for contact.php end */
+
+
+/* CSS for feedback.php start */
+
+.feedback {
+    margin: 0 auto;
+    width: 80%;
+    height: 900px;
+    border: 1px solid silver;
+    border-radius: 10px;
+    padding: 3%;
+}
+
+.feedback h3 {
+    text-align: center;
+    color: #10babb;
+}
+
+
+/* CSS for feedback.php end */
+
+
+/* CSS for faq.php start */
+
+.faq-heading {
+    border-bottom: #777;
+    padding: 20px 60px;
+}
+
+.faq-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hr-line {
+    width: 60%;
+    margin: auto;
+}
+
+
+/* Style the buttons that are used to open and close the faq-page body */
+
+.faq-heading {
+    font-size: 28px;
+    text-align: center;
+}
+
+.faq-page {
+    /* background-color: #eee; */
+    color: #444;
+    cursor: pointer;
+    padding: 30px 20px;
+    width: 60%;
+    border: none;
+    outline: none;
+    transition: 0.5s;
+    margin: auto;
+    font-size: 20px;
+}
+
+.faq-body {
+    margin: auto;
+    /* text-align: center; */
+    width: 50%;
+    padding: auto;
+}
+
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+
+.active,
+.faq-page:hover {
+    background-color: #F9F9F9;
+}
+
+
+/* Style the faq-page panel. Note: hidden by default */
+
+.faq-body {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+    font-size: 16px;
+}
+
+.faq-page:after {
+    content: '\02795';
+    /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2796";
+    /* Unicode character for "minus" sign (-) */
+}
+
+
+/* CSS for faq.php end */
+
+
+/* 
+@media screen and (max-width: 768px) {
+    nav {
+        padding: 10px 40px 10px 0px;
+    }
+    nav ul li.logo {
+        display: none;
+    }
+    nav ul div.items {
+        flex: 4;
+    }
+    .social {
+        padding: 5% 0;
+    }
+} */
+
+@media screen and (min-width: 600px) {
+    .container {
+        width: 100;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 738px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .container {
+        width: 962px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .container {
+        width: 1250px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .container {
+        width: 1890px;
+    }
+}
+
+@media screen and (min-width: 3840px) {
+    .container {
+        width: 3810px;
+    }
+}
+
+.js-cookie-consent {
+    position: relative;
+    top: 0px;
+    padding: 2px;
+    text-align: center;
+    width: 100%;
+    height: 85px;
+    z-index: 9999;
+    background-color: rgb(255, 253, 239);
+    border-color: #fffacc;
+    border: solid 1px;
+}
+
+.js-cookie-consent a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* Overwrite the bootstrap starts*/
+
+#loginBtn {
+    background-color: #323233;
+    border: none
+}
+
+#resetPwdBtn {
+    background-color: #323233;
+    border: none
+}
+
+#forgotPwdLink {
+    color: #323233;
+    text-decoration: none;
+}
+
+#forgotPwdLink:hover {
+    color: #000;
+}
+
+#registerBtn {
+    background-color: #323233;
+    border: none
+}
+
+#sendPwdBtn {
+    background-color: #323233;
+    border: none
+}
+
+#navbarDropdown {
+    color: #323233;
+}
+
+#navbarDropdown:hover {
+    color: rgb(109, 109, 109);
+}
+
+#dropdown-items a:focus {
+    background-color: #fff;
+}
+
+
+/* Overwrite the bootstrap ends*/
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+
+/* Next & previous buttons */
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+
+/* Position the "next button" to the right */
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+/* Caption text */
+
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+
+/* Number text (1/3 etc) */
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+
+/* The dots/bullets/indicators */
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+
+/* Fading animation */
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+
+/* On smaller screens, decrease text size */
+
+@media only screen and (max-width: 300px) {
+    .prev,
+    .next,
+    .text {
+        font-size: 11px
+    }
+}
