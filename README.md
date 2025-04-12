@@ -6,7 +6,7 @@ A Laravel-based web application designed to simplify the process of obtaining cu
 
 ## 🧾 Project Overview
 
-Quote Hub is a platform designed for wholesalers and signage professionals to easily order products. The application ensures:
+The application ensures:
 
 - 💲 Affordable prices without compromising on quality  
 - 🛒 Easy and secure online ordering  
