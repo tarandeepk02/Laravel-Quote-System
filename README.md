@@ -1,6 +1,6 @@
 # Get a Quote System Developed in Laravel Framework
 
-A Laravel-based web application built to streamline operations, reduce costs, and support businesses and signage professionals with affordable, high-quality products and cost estimations.
+A Laravel-based web application designed to simplify the process of obtaining custom quotes for coroplast sheets and banners, offering businesses and signage professionals an easy way to receive accurate, real-time pricing based on their specifications.
 
 ---
 
